@@ -1,0 +1,55 @@
+.inventory-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card-container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .padding-6 {
+        padding: 6px;
+    }
+
+    .inv-image {
+        width: 150px;
+        border-radius: 10px;
+        border: 2px solid;
+        padding: 0;
+    }
+
+
+}
+
+.text-left {
+    text-align: left;
+    margin-left: -20px;
+    // padding: 5px;
+}
+
+.assign-dealer-modal {
+    .head-title {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.dealer-name-container {
+    padding: 0 25px;
+    min-height: 200px;
+    min-width: 220px;
+
+    .dealer-name {
+        padding: 10px;
+        border: 1px solid #d8d8d8;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .active {
+        background-color: #48a89c;
+        color: white;
+    }
+}

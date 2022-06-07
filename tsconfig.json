@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es2017",
+    "isolatedModules": false,
+    "baseUrl": "./",
+    "lib": ["es7", "dom"],
+    "paths": {
+      "src/*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "icons/*": ["src/resources/icons"]
+    },
+    "sourceMap": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src", "stories"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "buildScripts",
+    "buildConfig"
+  ]
+}

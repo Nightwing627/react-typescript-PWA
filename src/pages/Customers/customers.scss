@@ -1,0 +1,40 @@
+.customer-card {
+    .card-container {
+        max-width: 400px;
+
+    }
+}
+.icon-container {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin svgColor($color) {
+    fill: $color !important;
+    border: 2px solid $color;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.view {
+    color: #0aa3ff;
+    font-size: 16px;
+}
+
+.phone-icon {
+    @include svgColor(#729415)
+}
+
+.chat-icon {
+    @include svgColor(#808080)
+}
+
+.mail-icon {
+    @include svgColor(#e0b017)
+}
+
+.wtsapp-icon {
+    @include svgColor(#4FCE5D)
+}

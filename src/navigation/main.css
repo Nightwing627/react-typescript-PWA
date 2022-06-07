@@ -1,0 +1,21 @@
+.page-base {
+    margin-top: 70px;
+    overflow: scroll;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.MuiSvgIcon-colorPrimary {
+    color: #48a89c !important;
+}

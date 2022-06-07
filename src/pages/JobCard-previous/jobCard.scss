@@ -1,0 +1,210 @@
+.leads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card-container {
+        text-align: left;
+        // flex-Direction: column;
+        // justify-Content: space-around;
+        // flex-wrap: wrap;
+
+        .card-data {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+
+        .card-element {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+        }
+    }
+}
+
+.add-leads-page {
+    .stepper-content {
+        width: 100%;
+        // flex-direction: column;
+
+        .upload-container {
+            width: 100%;
+        }
+    }
+}
+
+.job-card-container {
+    .sub-form-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .activity-card {
+        display: flex;
+        position: relative;
+        padding: 30px;
+        flex-wrap: wrap;
+        border-radius: 5px;
+
+        .edit-button {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 10px;
+        }
+    }
+
+    .details-text {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .description-text {
+            padding-bottom: 10px;
+            color: black;
+        }
+    }
+}
+
+.assign-dealer-modal {
+    .head-title {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.dealer-name-container {
+    padding: 0 25px;
+    min-height: 200px;
+    min-width: 220px;
+
+    .dealer-name {
+        padding: 10px;
+        border: 1px solid #d8d8d8;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .active {
+        background-color: #48a89c;
+        color: white;
+    }
+}
+
+.leads-modal {
+    margin: 30px;
+}
+
+.lead-modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.clickable {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #008661;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-button {
+    text-align: right;
+}
+
+.negotitation-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .negotitation-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        padding: 30px;
+        border-radius: 5px;
+        margin: 30px;
+    }
+
+    .heading {
+        font-size: 20px;
+
+    }
+
+    .info-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    .detail {
+        margin: 10px;
+    }
+
+    .image-container {
+        display: flex;
+        width: 30vh;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.icon-container {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin svgColor($color) {
+    fill: $color !important;
+    border: 2px solid $color;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.phone-icon {
+    @include svgColor(#729415)
+}
+
+.chat-icon {
+    @include svgColor(#808080)
+}
+
+.mail-icon {
+    @include svgColor(#e0b017)
+}
+
+.wtsapp-icon {
+    @include svgColor(#4FCE5D)
+}
+
+.view {
+    color: #0aa3ff;
+    font-size: 16px;
+}

@@ -1,0 +1,24 @@
+.modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.error-text-show {
+    height: 20px;
+    opacity: 1;
+}
+
+.error-text-hidden {
+    margin-top: -25px;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: red;
+    opacity: 0;
+    height: 0px;
+    transition: all 0.7s cubic-bezier(.25, .8, .25, 1);
+}
+

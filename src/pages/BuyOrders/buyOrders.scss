@@ -1,0 +1,122 @@
+.step-container {
+    display: flex;
+}
+
+.cards-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card-container {
+        width: 44%;
+    }
+
+}
+
+.table-heads {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.table-data {
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+}
+
+.bill-total {
+    text-align: right;
+}
+
+.data-inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: -10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.increaser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.4px solid #cccccc;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 4px;
+    height: 24px;
+    .plus {
+        border-right: 1px solid #cccccc;
+        width: 30px;
+        text-align: center;
+    }
+
+    .value {
+        width: 40px;
+        text-align: center;
+    }
+
+    .minus {
+        width: 30px;
+        text-align: center;
+        border-left: 1px solid #cccccc;
+    }
+}
+
+.row-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.data-content {
+    // margin: 0 15px;
+    font-size: 15px;
+    width: 50%;
+    text-align: left;
+
+
+    .view {
+        color: #0aa3ff;
+        font-size: 16px;
+    }
+
+    span {
+        color: #4A4847;
+        font-size: 14px;
+        // margin-right: 10px;
+    }
+}
+
+
+.payment-mode {
+
+    .r-select {
+        min-width: 100%;
+    }
+
+}
+
+.r-select {
+    min-width: 200px;
+}
+
+.invoice-add {
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.disp-details {
+    padding: 10px 0;
+
+}
+
+.invoice-data {
+    padding: 20px 0px;
+}

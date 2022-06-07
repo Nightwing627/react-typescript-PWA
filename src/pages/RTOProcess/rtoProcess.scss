@@ -1,0 +1,49 @@
+.rto-card-title {
+    padding: 10px;
+    text-align: center;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.edit-button {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #40aadc;
+    color: white;
+    width: 30px;
+    border-radius: 25px;
+    height: 30px;
+    padding: 4px;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.edit-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rto-status {
+    background-color: #42aadc;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px
+}
+
+.generate-doc {
+    text-align: right;
+    padding: 10px 0px;
+
+    span {
+        background-color: #abe252;
+        color: black;
+        border-radius: 10px;
+        padding: 3px 20px;
+    }
+}

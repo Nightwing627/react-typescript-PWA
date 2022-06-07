@@ -1,0 +1,4 @@
+{
+  "presets": [["esnext", { "modules": false }], "react"],
+  "plugins": ["dynamic-import-webpack"]
+}
